@@ -23,3 +23,5 @@ if detected_circles is not None:
         cv2.circle(image, (a, b), 1, (0, 0, 255), 3)
         cv2.imshow("Detected Circle", image)
         cv2.waitKey(0)
+
+        
