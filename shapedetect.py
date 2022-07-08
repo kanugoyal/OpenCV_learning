@@ -29,9 +29,9 @@ for contour in contours:
     elif len(approx) == 5:
         cv2.putText(image, "pentagon", (x, y), cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 0) )
     elif len(approx) == 10: 
-        cv2.putText(image, "star", (x, y), cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 0) )
-    else:
-        cv2.putText(image, "Circle", (x, y), cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 0) )
+        cv2.putText(image, "star", (400, 200), cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 0) )
+    # else:
+        # cv2.putText(image, "Circle", (x, y), cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 0) )
 cv2.imshow("shapes", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

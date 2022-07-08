@@ -1,0 +1,6 @@
+name: opencv_learning
+channels:
+- defaults
+dependencies:
+- matplotlib
+-ipykernel
