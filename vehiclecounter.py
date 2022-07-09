@@ -19,7 +19,7 @@ def center_handle(x,y,w,h):
     y1= int(h/2)
     cx = x+x1
     cy = y+y1
-    return cx,cy
+    return cx, cy  
 
 detect = []
 offset = 6

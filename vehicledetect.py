@@ -13,7 +13,7 @@ while True:
         plate = frames[y:y+h, x:x+w]
         cv2.rectangle(frames, (x,y), (x+w, y+h), (51,51,255), 2)
         cv2.rectangle(frames, (x, y-40), (x+w,y), (51,51,255), -1 )
-        cv2.putText(frames, 'car', (x, y -10), cv2.FONT_HERSHEY_SIMPLEX, 1 , (255,0,0), 1)
+        cv2.putText(frames, 'car', (x, y -10), cv2.FONT_HERSHEY_COMPLEX, 1 , (255,0,0), 1)
         cv2.imshow('car', plate)
 
 
